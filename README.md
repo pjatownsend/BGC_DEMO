@@ -110,7 +110,7 @@ Finally, we set the variables to be output in `file_def_nemo-pisces.xml`:
   <field field_ref="ZOO2"                            /> 
 ```
 
-Our demonstrator uses the [ORCA2_ICE_v5.0.0.tar.gz](https://gws-access.jasmin.ac.uk/public/nemo/sette_inputs/) inputfiles, which should be downloaded and copied into each run directory.
+Our demonstrator uses the `ORCA2_ICE_v5.0.0.tar.gz` and `ORCA2_INPUTS_PISCES_v5.0.0.tar.gz` inputfiles, which can be found [here](https://gws-access.jasmin.ac.uk/public/nemo/sette_inputs/). These files should be downloaded and copied into each run directory.
 
 To run the model, copy the executable into each run directory and then submit:
 ```
