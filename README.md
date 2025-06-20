@@ -116,7 +116,6 @@ To run the model, copy the executable into each run directory and then submit:
 ```
 cp nemo-5.0/cfgs/BGC_DEMO/BLD/bin/nemo.exe .
 ./nemo.exe
-
 ```
 The model runs over the full global ocean for one year (1948) with a timestep of `5400s` and outputs at a 7-day time frequency. When the model has finished, it will output a file `ORCA2_7d_19480101_19481231_ptrc_T.nc` with the concentrations for each phyto- and zooplankton.
 
