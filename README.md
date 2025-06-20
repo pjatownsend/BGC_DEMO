@@ -45,7 +45,7 @@ To be able to run the demonstrator, the directory `PISCES_FILES` has the `nameli
 * `file_def_nemo_pisces.xml` with the required variables for each reference run
 
 We also include the following files for post-processing of the outputs in the directory `SCRIPTS`:
-* A `mesh_mask.nc` file for use with NEMO V5.0
+* A `mesh_mask_v5.nc` file for use with NEMO V5.0
 * `models.csv` which lists details for the models we are comparing
 * A shell script `compare.sh` to visualise the comparison of the dominant species for each run
 * Python scripts `dominant-phyto.py` and `dominant-zoo.py` to calculate the dominant phyto- and zooplankton, respectively, at each grid point
